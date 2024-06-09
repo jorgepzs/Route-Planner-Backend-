@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext", 
+    "rootDir": "./src",
+    "moduleResolution": "NodeNext",
+    "outDir": "./dist",  
+    "esModuleInterop": true,                   /* Skip type checking all .d.ts files. */
+  }
+}
