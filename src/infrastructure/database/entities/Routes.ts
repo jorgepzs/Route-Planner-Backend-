@@ -6,14 +6,14 @@ import {
   } from "typeorm";
   
 
-@Entity("users")
-export class User {
+@Entity("routes")
+export class Routes {
 @PrimaryGeneratedColumn("uuid")
 id: string;
 
-@Column({ type: "text", unique: true })
-email: string;
+@Column({ type: "text",})
+start_address: string;
 
 @Column({ type: "text" })
-password: string;
+destinations: Array<string>;
 }
