@@ -1,9 +1,16 @@
 {
   "compilerOptions": {
-    "module": "NodeNext", 
+    "target": "ES2016",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "./build",
     "rootDir": "./src",
-    "moduleResolution": "NodeNext",
-    "outDir": "./dist",  
-    "esModuleInterop": true,                   /* Skip type checking all .d.ts files. */
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "strictPropertyInitialization": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true, 
   }
 }
